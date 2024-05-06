@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: azure;
+}
+p {
+  padding: 0.5rem;
+}
+body {
+  background-color: cornsilk;
+  font-size: 1.5rem;
+}
+table {
+  font-family: arial, sans-serif;
+  font-size: x-large;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: rgb(127, 219, 255);
+}
+h2 {
+  font-size: 3rem;
+  text-align: center;
+  text-shadow: 1px 1px #000;
+}
+video {
+  width: 100%;
+}
+caption,
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: 1px 1px #000;
+  background-color: cornsilk;
+}
+ul > li::before {
+  content: "💻  ";
+}
+.path-desc ul > li::before {
+  content: "💾  ";
+}
+.main-container {
+  background-color: cornsilk;
+}
+.center-container {
+  margin: auto;
+  width: 80%;
+}
+.header {
+  overflow: hidden;
+  background-color: cornsilk;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+.header a {
+  float: left;
+  color: lightblue;
+  text-align: center;
+  padding: 1rem 1rem;
+  text-decoration: none;
+  flex-grow: 1;
+  font-size: 2rem;
+}
+.header a:hover {
+  background-color: lightblue;
+  color: azure;
+}
+.title-container {
+  background-color: cornsilk;
+  text-align: center;
+  padding: 2rem;
+}
+.title-container > img {
+  width: 12rem;
+  border-radius: 100%;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+.job-desc {
+  background-color: rgb(166, 210, 224);
+}
+.path-desc {
+  background-color: rgb(160, 200, 218);
+}
+
+ul {
+  margin-left: 0.4rem;
+  list-style-type: none;
+}
+.path-desc img {
+  width: 12rem;
+}
+.skills-desc {
+  background-color: rgb(154, 194, 212);
+}
+.skills-desc img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.edu-desc,
+.reference {
+  background-color: rgb(148, 188, 206);
+}
+.certs {
+  background-color: rgb(142, 182, 200);
+}
+.fed:hover {
+  background-color: cadetblue;
+}
+td,
+th {
+  border: 2px solid cadetblue;
+  text-align: center;
+  vertical-align: middle;
+  padding: 1rem;
+}
+tr:nth-child(even) {
+  background-color: cornflowerblue;
+}
+.clickable {
+  cursor: pointer;
+}
+.submission {
+  display: inline-block;
+  width: 10rem;
+  padding: 1rem;
+  margin: auto;
+}

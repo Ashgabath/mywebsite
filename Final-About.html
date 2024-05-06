@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Valentin Wuepper/Resume</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="read about what a Software Developer does">
+    <meta name="keywords" content="work, Developer, software, engineering, outlook">
+    <meta name="author" content="Valentin Wuepper">
+    <link rel="stylesheet" type="text/css" href="Final-CSS.css">
+</head>
+<body >
+    <script>
+window.onload = function() {
+  document.getElementById("fdev").style.display ='none';
+  document.getElementById("bdev").style.display ='none';
+  document.getElementById("gdev").style.display ='none';
+  document.getElementById("mdev").style.display ='none';
+  document.getElementById("pdev").style.display ='none';}
+    </script>
+    <div class="main-container">
+        <div class="center-container">
+            <div class="header">
+                <a href="Final-Home.html">HOME</a>
+                <a href="Final-About.html">RESUME</a>
+                <a href="Final-Form.html">FORM</a>
+                <a href="Final-Benefits.html">BENEFITS</a>
+                <a href="Final-References.html">REFERENCES</a>
+            </div> 
+            <div class="title-container">
+    <img src="images/codePic.jpg" alt="a picture of colorful code taken from the side">
+    <h1>Valentin Wuepper</h1>
+            </div>
+            <div class="job-desc">
+                <h2>Professional Summary</h2>
+                <p>A full-time student and a seven-year veteran pursuing a Bachelor’s 
+                    in Information Technology focused on programming with a 3.15 GPA 
+                    and a Secret Security Clearance. Looking for an Information Technology
+                     or Developer position. Willing to relocate and work remotely if needed.
+                </p>
+            </div>
+            <div class="path-desc">
+                <h2>SKILLS AND PROFICIENCIES</h2>
+                <ul>
+                    <li>Basic Java and Python Programming</li>
+                    <li>Object Oriented Programing</li>
+                    <li>Single Page Applications</li>
+                    <li>Ajax HTML Requests</li>
+                    <li>MySQL workbench</li>
+                    <li>Basic CLI</li>
+                    <li>Front End Development</li>
+                    <li>Bulgarian and English Fluency</li>
+                    <li>Proficient with SpringToolSuite and Postman</li>
+                    <li>Microsoft Office Specialist</li>
+                </ul>
+            </div>
+            <div class="skills-desc">
+                <h2>Click Each Work Experience For Description</h2>
+                <ul>
+                    <li  onclick="myFed()">Army - Healthcare Specialist - 2016-2018</li>
+                    <li onclick="myBed()">Army - Ambulance Aide/Driver - 2018-2019</li>
+                    <li onclick="myGd()">Georgia Port Authority - Equipment Operator - 2019-2020</li>
+                    <li onclick="myMad()">American Military University - IT Student - 2020-Present</li>
+                </ul>
+                <p id="fed">
+                </p>
+                <p id="Bed">
+                </p>
+                <p id="Gd">
+                </p>
+                <p id="Mad">
+                </p>
+                <p id="Pd">
+                </p>
+                <div id="fdev"><img src="images/Front-end.jpg" alt="Pot of coffee next to developer using Js"></div>
+                <div id="bdev"><img src="images/Back-end.jpg" alt="photo of library from top floor"></div>
+                <div id="gdev"><img src="images/Game-dev.jpg" alt="Man wearing Sony PlayStation VR"></div>
+                <div id="mdev"><img src="images/Mobile-dev.jpg" alt="Apple watch besides apple iPhone"></div>
+            </div>
+            <div class="edu-desc">
+                <h2>EDUCATION AND CERTIFICATIONS</h2>
+                <ul>
+                    <li>Microsoft Specialist – 2010</li>
+                    <li>Drill Sergeant Academy - 2020</li>
+                    <li>FSNA – 2021</li>
+                    <li>Python – 2021</li>
+                    <li>Java Fundamentals - 2021</li>
+                    <li>HTML, CSS, JS – 2021</li>
+                    <li>Apprentice now - 2022</li>
+                    <li>Angular, React, and jQuery - 2022</li>
+                </ul>
+            </div>
+            <div class="certs">
+                <h2>Professional Connections</h2>
+                <p>If you would like to contact me on my <a href="https://www.linkedin.com/in/valentin-wuepper-372178185/">LinkedIn</a> please feel free to send a 
+                brief message about your intentions and how we can help benefit eachother professionally</p>
+            </div>
+        </div>
+    </div>
+    <script>
+function myFed() {
+  document.getElementById("fed").innerHTML = "The job required daily physical and mental health screenings of prisoners, active correspondence between the corrections and medical systems, appointment supervision, accurate supply selection and packaging, and minor guard duties. A member of a three-person team responsible for the healthcare and documentation for all U.S. military prisoners within Europe and Africa. Achieved the first in history 100% accreditation of an overseas military correctional facility and transported prisoners to and from various locations with 100% accountability through international travel.";
+  document.getElementById("Bed").innerHTML = "";
+  document.getElementById("Gd").innerHTML = "";
+  document.getElementById("Mad").innerHTML = "";
+  document.getElementById("Pd").innerHTML = "";
+  document.getElementById("fdev").style.display ='block';
+  document.getElementById("bdev").style.display ='none';
+  document.getElementById("gdev").style.display ='none';
+  document.getElementById("mdev").style.display ='none';
+  document.getElementById("pdev").style.display ='none';
+}
+function myBed() {
+  document.getElementById("Bed").innerHTML = "The job required daily vehicle maintenance, equipment accountability, radio transactions, and active implementation, training, and revision of SOPs. Maintained serviceability of transportation equipment worth over $3,000,000. Directed 26 people on their daily function and operations as the chief of the vehicle section in charge of 14 vehicles, including 2 mobile aid stations. Trained over 600 people in vehicle extraction and proper ergonomics to allow lifts and carries of over 200-pound casualties without causing further injury.";
+  document.getElementById("fed").innerHTML = "";
+  document.getElementById("Gd").innerHTML = "";
+  document.getElementById("Mad").innerHTML = "";
+  document.getElementById("Pd").innerHTML = "";
+  document.getElementById("fdev").style.display ='none';
+  document.getElementById("bdev").style.display ='block';
+  document.getElementById("gdev").style.display ='none';
+  document.getElementById("mdev").style.display ='none';
+  document.getElementById("pdev").style.display ='none';
+}
+function myGd() {
+  document.getElementById("Gd").innerHTML = "The job required implementation of high safety standards, the ability to work 70 hour weeks when necessary, learning new equipment expediently, training new employees, paying close attention to order numbers, and securing correct content. Transported over ten thousand shipping containers damage-free as a member of the highest exporting port in 2020. Inspected loads, placards, vehicles, and communication equipment communicating and correcting errors to help improve relations between railyard and port and reduce monetary loss to fines.";
+  document.getElementById("fed").innerHTML = "";
+  document.getElementById("Bed").innerHTML = "";
+  document.getElementById("Mad").innerHTML = "";
+  document.getElementById("Pd").innerHTML = "";
+  document.getElementById("fdev").style.display ='none';
+  document.getElementById("bdev").style.display ='none';
+  document.getElementById("gdev").style.display ='block';
+  document.getElementById("mdev").style.display ='none';
+  document.getElementById("pdev").style.display ='none';
+}
+function myMad() {
+  document.getElementById("Mad").innerHTML = "Participated in a technical internship at white sands missile range where I worked alongside the chief developer and radiation specialists at the electron accelerator and radiation testing facility. Created a capstone project Arduino device to monitor light sensitivity and captured data results as the device was exposed to radiation to determine how various hazards affect the data gathering capabilities of the software and electronics. ";
+  document.getElementById("fed").innerHTML = "";
+  document.getElementById("Gd").innerHTML = "";
+  document.getElementById("Bed").innerHTML = "";
+  document.getElementById("Pd").innerHTML = "";
+  document.getElementById("fdev").style.display ='none';
+  document.getElementById("bdev").style.display ='none';
+  document.getElementById("gdev").style.display ='none';
+  document.getElementById("mdev").style.display ='block';
+  document.getElementById("pdev").style.display ='none';
+}
+    </script>
+</body>
+</html>
